@@ -1,0 +1,53 @@
+@media only screen and (max-width:375px){
+	.container{
+		width:335px;
+		margin-left:5px;
+		margin-top:50px;
+	}
+	.flex{
+		display:flex;
+		flex-direction:column;
+		width:335px;
+	}
+	.flexa{
+		display:flex;
+		flex-direction:column;
+		width:100%;
+	}
+	.separator{
+		display:flex;
+		flex-direction:column;
+	}
+	.one{
+		width:120%;
+	}
+	.two{
+		width:120%;
+	}
+	.three{
+		width:120%;
+	}
+	.four{
+		width:120%;
+	}
+	.five{
+		width:360%;
+		margin-bottom:50px;
+	}
+}
+@media only screen and (max-width:1440px){
+	.flex{
+		display:flex;
+	}
+	.flexa{
+		display:flex;
+		flex-wrap:wrap;
+		width:75%;
+	}
+	.flexb{
+		width:25%;
+	}
+	.separator{
+		display:flex;
+	}
+}
